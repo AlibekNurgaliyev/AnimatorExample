@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             .setDuration(3000)
 
 //Uncomment for sky animation
-        sunsetSkyAnimator.setEvaluator(ArgbEvaluator())
+//        sunsetSkyAnimator.setEvaluator(ArgbEvaluator())
 
         val nightSkyAnimator = ObjectAnimator
             .ofInt(skyView, "backgroundColor", sunsetSkyColor, nightSkyColor)
