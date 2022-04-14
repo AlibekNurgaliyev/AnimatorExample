@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
             .setDuration(3000)
 
 //Uncomment for sky animation
-        sunsetSkyAnimator.setEvaluator(ArgbEvaluator())
+//        sunsetSkyAnimator.setEvaluator(ArgbEvaluator())
 
         heightAnimator.start()
         sunsetSkyAnimator.start()
