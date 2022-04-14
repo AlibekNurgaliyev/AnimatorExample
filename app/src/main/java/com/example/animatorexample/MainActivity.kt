@@ -62,5 +62,6 @@ class MainActivity : AppCompatActivity() {
         animatorSet.play(heightAnimator)
             .with(sunsetSkyAnimator)
             .before(nightSkyAnimator)
+        animatorSet.start()
     }
 }
